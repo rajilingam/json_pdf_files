@@ -10,14 +10,15 @@ Before running the script, make sure you have the required dependencies installe
 ```bash
 pip install reportlab
 ```
-## Usage
+## Running the script
 To generate a PDF with signature, run the script with the following command
 
+```bash
 python generate_pdf.py
+```
 
 You can provide JSON data as input using the json_data variable in the script.
 
-Example
 # Example JSON data
 json_data = [
     [{"Subject": "Math", "Grade": 90}, {"Subject": "Science", "Grade": 85}, {"Subject": "physics", "Grade": 95}],
