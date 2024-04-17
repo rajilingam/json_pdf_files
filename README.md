@@ -9,7 +9,7 @@ Before running the script, make sure you have the required dependencies installe
 
 ```bash
 pip install reportlab
-
+```
 ## Usage
 To generate a PDF with signature, run the script with the following command
 
